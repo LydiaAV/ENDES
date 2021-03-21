@@ -39,14 +39,24 @@ public class CCuenta {
     	this.cuenta = cuenta;
     }
     
-    public String getSaldo() 
+    public double getSaldo() 
     {
     	return this.saldo;
     }
     
-    public void setSaldo(String saldo) 
+    public void setSaldo(double saldo) 
     {
     	this.saldo = saldo;
+    }
+    
+    public double getTipoInteres() 
+    {
+    	return this.tipoInteres;
+    }
+    
+    public void setTipoInteres(double tipoInteres) 
+    {
+    	this.tipoInteres = tipoInteres;
     }
     
     public double estado()
